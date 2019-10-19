@@ -37,7 +37,7 @@ module.exports = (_, { mode }) => ({
                 ]
             },
             {
-                test: /\.(png|jpg|gif)$/i,
+                test: /\.(png|jpg|gif|webp)$/i,
                 use: [
                     {
                         loader: 'url-loader',
